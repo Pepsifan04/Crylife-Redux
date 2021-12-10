@@ -1,0 +1,191 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// User options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Thu Aug 13 12:25:09 AM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION INFO_OPTIONS
+{
+	"exec"
+	{
+		"Difficulty Level"
+		{
+			LIST
+			"Easy" "0"
+			"Medium" "1"
+			"Hard" "2"
+			"Veryhard" "3"
+			"Realistic" "4"
+			"Ultimate" "5"
+			
+		}
+		{ "2" }
+	}
+
+	"disable_autosave"
+	{
+		"Disable Autosaving"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"companion_damagefilter"
+	{
+		"Ally Damage Filter"
+		{
+			LIST
+			"None" "0"
+			"Critical Allies are Invincible" "1"
+			"All Allies are Invincible" "2"
+		}
+		{ "1" }
+	}
+
+	"enemies_weaponskill"
+	{
+		"Enemy Soldiers Weapon Accuracy"
+		{
+			LIST
+			"Default" "0"
+			"Medium" "1"
+			"High" "2"
+		}
+		{ "2" }
+	}
+
+	"bullettimesim_disable_flash"
+	{
+		"Disable BT enter and exit flashes"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_drawbullettimeeffects"
+	{
+		"BT Distortion Trails"
+		{
+			LIST
+			"Off" "0"
+			"Trails Only" "1"
+			"Front Wave" "2"
+			"Both" "3"
+		}
+		{ "3" }
+	}
+
+	"r_draw_grtracer"
+	{
+		"Enable White Bullet Tracers"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_grenadeeffect"
+	{
+		"BT Grenade Effects"
+		{
+			LIST
+			"Off" "0"
+			"Grenades Only" "1"
+			"All Explosions" "2"
+		}
+		{ "2" }
+	}
+
+	"r_smod_bloom"
+	{
+		"Enable Bloom"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_smod_dynamiclightmode"
+	{
+		"Dynamic Light"
+		{
+			LIST
+			"On" "0"
+			"Off" "1"
+			"Cheap Lights" "2"
+		}
+		{ "0" }
+	}
+
+	"smod_ro_aimmode"
+	{
+		"Enable /Free/ Crosshair"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_visoreffects"
+	{
+		"Enable Blood/Water On Screen Splatters"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_motionblur"
+	{
+		"Enable Motion Blur"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_vectorblur"
+	{
+		"Enable Vector Blur"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_screenblur"
+	{
+		"Enable Screen Blurring FX"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"r_viewmodel_dof"
+	{
+		"Enable Depth Of Field Effect on Weapons"
+		{ BOOL }
+		{ "1" }
+	}
+
+}
