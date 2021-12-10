@@ -1,0 +1,33 @@
+"GameInfo"
+{
+	game 		"Crylife"
+	title 		"CRYlife - REDUX"
+	developer   "Pepsifan04,The SMOD Author, help and moral support from BSnooch"
+	"icon" 		"icon" 
+
+	nodifficulty 0
+	nocrosshair	0
+	nohimodel	0
+	nomodels	0
+	
+	FileSystem
+	{
+		SteamAppId				220		// This will mount all the GCFs we need (240=CS:S, 220=HL2).
+		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
+		
+		SearchPaths
+		{
+		Game				|gameinfo_path|.
+		game				"|gameinfo_path|..\..\SDKBase"
+		//maps and textures for those maps
+		game				"|gameinfo_path|..\..\CSSBase"
+		
+		//We nee those files not only for maps
+		Game				"|gameinfo_path|..\..\..\..\common\Half-Life 2\hl2"
+	
+		//maps and textures for those maps
+		Game				"|gameinfo_path|..\..\..\..\common\Half-Life 2 Deathmatch\hl2mp"
+		Game				"|gameinfo_path|..\..\..\..\common\Counter-Strike Source\cstrike"
+	}
+}
+}
