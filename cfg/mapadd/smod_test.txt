@@ -1,0 +1,234 @@
+//=======================
+//BOILERPLATE MAPADD FILE
+//=======================
+
+"entities"{
+	"point_servercommand"{
+		keyvalues{
+			"targetname" "cmd"
+		}
+	}
+
+	"logic_auto"{
+		//globalstate is there just to be sure it fires
+		// not needed at all according to wiki but I don't trust the wiki
+		"globalstate" "is_pc"
+		"spawnflags" "0"
+		"keyvalues"{
+			"OnNewGame" "cmd,commad,null"
+			"OnLoadGame" "cmd,commad,null"
+			"OnMapTransition" "cmd,commad,null"
+			"OnMapSpawn" "cmd,commad,null"
+
+
+			"OnLoadGame" "selectedWeapon,GetValue,,0"
+			"OnLoadGame" "selectedNhev,GetValue,,0"
+
+		}
+	}
+
+	"math_counter"{
+		"keyvalues"{
+			"targetname"	"selectedWeapon"
+			"startvalue"	"1"
+			"min"			"0"
+			"max"			"12" //I think it's 11 max weapons, may be less after refreactor for Redux
+
+			"outValue"		"selectedWeapon_logic,invalue,,0"
+			"OnGetValue"	"selectedWeapon_logic,invalue,,0"
+			"OnHitMin"		"selectedWeapon,setvalue,1"
+			"OnHitMax"		"selectedWeapon,setvalue,11"
+		}
+	}
+
+	"logic_case"{
+		"keyvalues"{
+			"targetname" "selectedWeapon_logic"
+			"Case01"    "1"
+			"Case02"	"2"
+			"Case03"	"3"
+			"Case04"	"4"
+			"Case05"	"5"
+			"Case06"	"6"
+			"Case07"	"7"
+			"Case08"	"8"
+			"Case09"	"9"
+			"Case10"	"11"
+
+
+			"OnCase01"	"modcache_pistol"
+			"OnCase02"	"modcache_deagle"
+			"OnCase03"	"modcache_ggun"
+			"OnCase04"	"modcache_smg"
+			"OnCase05"	"modcache_ar"
+			"OnCase06"	"modcache_rifle"
+			"OnCase07"	"modcache_shot"
+			"OnCase08"	"modcache_mg"
+			"OnCase09"	"modcache_rpg"
+			"OnCase10"	"modcache_bow"
+			"OnCase11"	"modcache_bug"
+		}
+	}
+
+"math_counter"{
+		"keyvalues"{
+			"targetname"	"selectedNhev"
+			"startvalue"	"1"
+			"min"			"0"
+			"max"			"5" 
+
+			"outValue"		"selectedNhev_logic,invalue,,0"
+			"OnGetValue"	"selectedNhev_logic,invalue,,0"
+			"OnHitMin"		"selectedNhev,setvalue,1"
+			"OnHitMax"		"selectedNhev,setvalue,4"
+		}
+	}
+
+	"logic_case"{
+		"keyvalues"{
+			"targetname" "selectedNhev_logic"
+			"Case01"    "1"
+			"Case02"	"2"
+			"Case03"	"3"
+			"Case04"	"4"
+
+
+			"OnCase01"	"armour"
+			"OnCase02"	"strengh"
+			"OnCase03"	"speed"
+			"OnCase04"	"cloak"
+
+		}
+	}
+
+
+
+	//=====================
+	//weapon mod ui sprites
+	//=====================
+
+	"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_1_1"
+			"renderfx" "0"
+			"rendermode" "9"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.062"
+			"scale" "0.015"
+			"model" "overlays/crylife/hud/sprites/Slot_1_1.vmt"
+			"glowproxysize" "0"
+		}
+	}
+	"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_1_2"
+			"renderfx" "0"
+			"rendermode" "9"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.062"
+			"scale" "0.015"
+			"model" "overlays/crylife/hud/sprites/Slot_1_2.vmt"
+			"glowproxysize" "0"
+		}
+	}
+
+	"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_2_1"
+			"renderfx" "0"
+			"rendermode" "5"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.056"
+			"scale" "0.015"
+			"model" "overlays/crylife/hud/sprites/Slot_2_1.vmt"
+			"glowproxysize" "0"
+		}
+	}
+	"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_2_2"
+			"renderfx" "0"
+			"rendermode" "5"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.056"
+			"scale" "0.015"
+			"model" "overlays/crylife/hud/sprites/Slot_2_2.vmt"
+			"glowproxysize" "0"
+			}
+		}
+
+	"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_3_1"
+			"renderfx" "0"
+			"rendermode" "9"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.034"
+			"scale" "0.011"
+			"model" "overlays/crylife/hud/sprites/Slot_3_1.vmt"
+			"glowproxysize" "0"
+		}
+	}
+	"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_3_2"
+			"renderfx" "0"
+			"rendermode" "9"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.034"
+			"scale" "0.011"
+			"model" "overlays/crylife/hud/sprites/Slot_3_2.vmt"
+			"glowproxysize" "0"
+		}
+	}
+	"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_3_3"
+			"renderfx" "0"
+			"rendermode" "9"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.034"
+			"scale" "0.011"
+			"model" "overlays/crylife/hud/sprites/Slot_3_3.vmt"
+			"glowproxysize" "0"
+		}
+	}
+		"env_sprite"{
+		"keyvalues"{
+			"targetname" "slot_3_4"
+			"renderfx" "0"
+			"rendermode" "9"
+			"renderamt" "255"
+			"rendercolor" "255 255 255"
+			"disablereceiveshadows" "1"
+			"framerate" "0"
+			// "scale" "0.034"
+			"scale" "0.011"
+			"model" "overlays/crylife/hud/sprites/Slot_3_4.vmt"
+			"glowproxysize" "0"
+		}
+	}
+	
+	
+}
