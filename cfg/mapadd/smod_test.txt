@@ -109,7 +109,7 @@
 
 	"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_1_1"
+			"targetname" "modui_1_1"
 			"renderfx" "0"
 			"rendermode" "9"
 			"renderamt" "255"
@@ -124,7 +124,7 @@
 	}
 	"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_1_2"
+			"targetname" "modui_1_2"
 			"renderfx" "0"
 			"rendermode" "9"
 			"renderamt" "255"
@@ -140,7 +140,7 @@
 
 	"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_2_1"
+			"targetname" "modui_2_1"
 			"renderfx" "0"
 			"rendermode" "5"
 			"renderamt" "255"
@@ -155,7 +155,7 @@
 	}
 	"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_2_2"
+			"targetname" "modui_2_2"
 			"renderfx" "0"
 			"rendermode" "5"
 			"renderamt" "255"
@@ -171,7 +171,7 @@
 
 	"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_3_1"
+			"targetname" "modui_3_1"
 			"renderfx" "0"
 			"rendermode" "9"
 			"renderamt" "255"
@@ -186,7 +186,7 @@
 	}
 	"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_3_2"
+			"targetname" "modui_3_2"
 			"renderfx" "0"
 			"rendermode" "9"
 			"renderamt" "255"
@@ -201,7 +201,7 @@
 	}
 	"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_3_3"
+			"targetname" "modui_3_3"
 			"renderfx" "0"
 			"rendermode" "9"
 			"renderamt" "255"
@@ -216,7 +216,7 @@
 	}
 		"env_sprite"{
 		"keyvalues"{
-			"targetname" "slot_3_4"
+			"targetname" "modui_3_4"
 			"renderfx" "0"
 			"rendermode" "9"
 			"renderamt" "255"
