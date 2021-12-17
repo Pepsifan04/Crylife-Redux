@@ -20,9 +20,11 @@
 			"OnMapTransition" "cmd,commad,null"
 			"OnMapSpawn" "cmd,commad,null"
 
-
-			"OnLoadGame" "selectedWeapon,GetValue,,0"
-			"OnLoadGame" "selectedNhev,GetValue,,0"
+			//assign a targetname to the viewmodel
+			"OnNewGame"		"viewmodel,addoutput,Targetname hud_parent,0,-1"
+			
+			"OnLoadGame"	"selectedWeapon,GetValue,,0"
+			"OnLoadGame"	"selectedNhev,GetValue,,0"
 
 		}
 	}
