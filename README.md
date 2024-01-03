@@ -1,8 +1,20 @@
-# Crylife-Redux
-The goal of this god-forsaken project is to _imporve_ and _descope_ the original *Crylife* and *Crylife v2*
-providing nice, clean, small mod that can be enjoyed without constant problems and janky mechanics
+# CRYLife Redux
 
-Rewritten from scratch to avoid scope creep and patchy solutions that work 50% of time or require constant in-game checks to see if everything is in place
+## Summary
+Main goal is to improve the gameplay flow of the mod.
+Descope the original idea, restore Half-Life 2 theme to the mod while adding Crysis inspired features.
+
+Secondary goal is to simplify the underlaying code by removing implemented but unused features, reimplementing existing usable features in a structured manner, making the mod less prone to softlocks and other jank.
 
 
-Feel free to contribute
+## TO DO LIST OF THINGS TO DO TOO
+[] Use common.lua for basic gameplay functions
+[] Reimplement basic movement with state monitoring
+[] Reimplement NHEV modes
+[] Change NHEV model back to HEV
+[] Figure out what guns to keep
+[] Reimplement weapon mod system
+[] Figure out where give weapons to player
+[] Where (if at all) give weapon mods to player
+[] Add new events and enemies to existing HL2 campaign
+[] Many more that I can't think of 
