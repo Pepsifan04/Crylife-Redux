@@ -21,12 +21,13 @@ Secondary goal is to simplify the underlaying code by removing implemented but u
 
 
 Guns that'll stay:
-Gravity Gun (keeping)
-9mm Pistol (fallback weapon, keeping)
-Revolver (replaces Desert Eagle, serving as a rare and powerful handgun)
-AK47 (keeping due to its thematic fit with the Eastern European setting)
-PP-19 Bizon or VZ. 61 Skorpion (replacing MP7 for an Eastern European-style SMG)
-Pump Action Shotgun (keeping)
-Bolt Action Sniper Rifle (keeping)
-RPG (keeping for story progression)
-Bow (keeping, unique and offers variety)
+
+-Gravity Gun (keeping)<br>
+-9mm Pistol (fallback weapon, keeping)<br>
+-Revolver (replaces Desert Eagle, serving as a rare and powerful handgun)<br>
+-AK47 (keeping due to its thematic fit with the Eastern European setting)<br>
+-PP-19 Bizon or VZ. 61 Skorpion (replacing MP7 for an Eastern European-style SMG)<br>
+-Pump Action Shotgun (keeping)<br>
+-Bolt Action Sniper Rifle (keeping)<br>
+-RPG (keeping for story progression, but modified to compensate for player extra powers)<br>
+-Bow (keeping, unique and offers variety)
