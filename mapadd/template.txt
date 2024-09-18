@@ -1,0 +1,138 @@
+"Entities:btn_forward"{
+    "lua"{
+       "callfunc" "luaFunc_forward"
+     }
+ }
+ 
+"Entities:btn_backward"{
+    "lua"{
+       "callfunc" "luaFunc_backward"
+     }
+ }
+
+"Entities:btn_strafe_left"{
+    "lua"{
+       "callfunc" "luaFunc_strafe_left"
+     }
+ }
+
+"Entities:btn_strafe_right"{
+    "lua"{
+       "callfunc" "luaFunc_strafe_right"
+     }
+ }
+
+"Entities:btn_jump"{
+    "lua"{
+       "callfunc" "luaFunc_jump"
+     }
+ }
+
+"Entities:btn_crouch"{
+    "lua"{
+       "callfunc" "luaFunc_crouch"
+     }
+ }
+
+"Entities:btn_sprint"{
+    "lua"{
+       "callfunc" "luaFunc_sprint"
+     }
+ }
+
+"Entities:btn_fire"{
+    "lua"{
+       "callfunc" "luaFunc_fire"
+     }
+ }
+
+"Entities:btn_alt_fire"{
+    "lua"{
+       "callfunc" "luaFunc_alt_fire"
+     }
+ }
+
+"Entities:btn_reload"{
+    "lua"{
+       "callfunc" "luaFunc_reload"
+     }
+ }
+
+"Entities:btn_use"{
+    "lua"{
+       "callfunc" "luaFunc_use"
+     }
+ }
+
+"Entities:btn_zoom"{
+    "lua"{
+       "callfunc" "luaFunc_zoom"
+     }
+ }
+
+"Entities:btn_flashlight"{
+    "lua"{
+       "callfunc" "luaFunc_flashlight"
+     }
+ }
+
+"Entities:btn_suit_menu"{
+    "lua"{
+       "callfunc" "luaFunc_suit_menu"
+     }
+ }
+
+"Entities:btn_weapon_menu"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_menu"
+     }
+ }
+
+"Entities:btn_weapon_slot_1"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_1"
+     }
+ }
+
+"Entities:btn_weapon_slot_2"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_2"
+     }
+ }
+
+"Entities:btn_weapon_slot_3"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_3"
+     }
+ }
+
+"Entities:btn_weapon_slot_4"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_4"
+     }
+ }
+
+"Entities:btn_weapon_slot_5"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_5"
+     }
+ }
+
+"Entities:btn_weapon_slot_6"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_6"
+     }
+ }
+
+"Entities:btn_melee"{
+    "lua"{
+       "callfunc" "luaFunc_melee"
+     }
+ }
+
+"Entities:btn_grenade"{
+    "lua"{
+       "callfunc" "luaFunc_grenade"
+     }
+ }
+
