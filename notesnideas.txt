@@ -1,0 +1,35 @@
+Use mappad function/part
+"Entities:entNane"
+    {
+    "lua"
+     {
+     "callfunc" "luaFunc"
+     }
+    }
+or 
+"Entities"
+    {
+    "lua"
+        {
+        "targetname" "entName"
+        "callfunc" "luaFunc"
+        }
+    }
+
+and instant_trig_run <entName> (or ent_fire <entName>) cmd to fire lua functions from cmd
+test for potential delays, especially when used for EVERYTHING
+
+other option would be to create lua ent and modify it's callFunc at runtime and call it
+this way we won't have to create shitton of entities for every player input
+again check for potential delays and if it's even possible, but i suspect that lua ent has an onTrigger output
+
+2nd option is faster to implement but it'll require namechange+fire on every input whereas 1st solution is rock solid
+
+
+GET MORE INFO ON SMOD lua ENTITY, IDKHOW THO
+
+
+use HL2.HookKilledEvent to monitor kills
+callback function needs to call HL2.GetEntInfo and get HL2.GetAbsOrigint to create trigger_multiple (Instant_trig more likely) for weapons
+this will add OnPlayerPickup to dropped weapon alowing for unlocking weapons "on the fly" without scripted placements that player may miss.
+
