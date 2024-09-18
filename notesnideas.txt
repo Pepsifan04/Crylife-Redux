@@ -33,3 +33,9 @@ use HL2.HookKilledEvent to monitor kills
 callback function needs to call HL2.GetEntInfo and get HL2.GetAbsOrigint to create trigger_multiple (Instant_trig more likely) for weapons
 this will add OnPlayerPickup to dropped weapon alowing for unlocking weapons "on the fly" without scripted placements that player may miss.
 
+
+
+
+
+
+give player crowbar back instead of punch, meachanic remains the same, but the model and anim slightly changes
