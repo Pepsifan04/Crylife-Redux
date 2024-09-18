@@ -1,138 +1,276 @@
-"Entities:btn_forward"{
+"Entities:btn_forward_press"{
     "lua"{
-       "callfunc" "luaFunc_forward"
-     }
- }
- 
-"Entities:btn_backward"{
-    "lua"{
-       "callfunc" "luaFunc_backward"
+       "callfunc" "luaFunc_forward_press"
      }
  }
 
-"Entities:btn_strafe_left"{
+"Entities:btn_forward_release"{
     "lua"{
-       "callfunc" "luaFunc_strafe_left"
+       "callfunc" "luaFunc_forward_release"
      }
  }
 
-"Entities:btn_strafe_right"{
+"Entities:btn_backward_press"{
     "lua"{
-       "callfunc" "luaFunc_strafe_right"
+       "callfunc" "luaFunc_backward_press"
      }
  }
 
-"Entities:btn_jump"{
+"Entities:btn_backward_release"{
     "lua"{
-       "callfunc" "luaFunc_jump"
+       "callfunc" "luaFunc_backward_release"
      }
  }
 
-"Entities:btn_crouch"{
+"Entities:btn_strafe_left_press"{
     "lua"{
-       "callfunc" "luaFunc_crouch"
+       "callfunc" "luaFunc_strafe_left_press"
      }
  }
 
-"Entities:btn_sprint"{
+"Entities:btn_strafe_left_release"{
     "lua"{
-       "callfunc" "luaFunc_sprint"
+       "callfunc" "luaFunc_strafe_left_release"
      }
  }
 
-"Entities:btn_fire"{
+"Entities:btn_strafe_right_press"{
     "lua"{
-       "callfunc" "luaFunc_fire"
+       "callfunc" "luaFunc_strafe_right_press"
      }
  }
 
-"Entities:btn_alt_fire"{
+"Entities:btn_strafe_right_release"{
     "lua"{
-       "callfunc" "luaFunc_alt_fire"
+       "callfunc" "luaFunc_strafe_right_release"
      }
  }
 
-"Entities:btn_reload"{
+"Entities:btn_jump_press"{
     "lua"{
-       "callfunc" "luaFunc_reload"
+       "callfunc" "luaFunc_jump_press"
      }
  }
 
-"Entities:btn_use"{
+"Entities:btn_jump_release"{
     "lua"{
-       "callfunc" "luaFunc_use"
+       "callfunc" "luaFunc_jump_release"
      }
  }
 
-"Entities:btn_zoom"{
+"Entities:btn_crouch_press"{
     "lua"{
-       "callfunc" "luaFunc_zoom"
+       "callfunc" "luaFunc_crouch_press"
      }
  }
 
-"Entities:btn_flashlight"{
+"Entities:btn_crouch_release"{
     "lua"{
-       "callfunc" "luaFunc_flashlight"
+       "callfunc" "luaFunc_crouch_release"
      }
  }
 
-"Entities:btn_suit_menu"{
+"Entities:btn_sprint_press"{
     "lua"{
-       "callfunc" "luaFunc_suit_menu"
+       "callfunc" "luaFunc_sprint_press"
      }
  }
 
-"Entities:btn_weapon_menu"{
+"Entities:btn_sprint_release"{
     "lua"{
-       "callfunc" "luaFunc_weapon_menu"
+       "callfunc" "luaFunc_sprint_release"
      }
  }
 
-"Entities:btn_weapon_slot_1"{
+"Entities:btn_fire_press"{
     "lua"{
-       "callfunc" "luaFunc_weapon_slot_1"
+       "callfunc" "luaFunc_fire_press"
      }
  }
 
-"Entities:btn_weapon_slot_2"{
+"Entities:btn_fire_release"{
     "lua"{
-       "callfunc" "luaFunc_weapon_slot_2"
+       "callfunc" "luaFunc_fire_release"
      }
  }
 
-"Entities:btn_weapon_slot_3"{
+"Entities:btn_alt_fire_press"{
     "lua"{
-       "callfunc" "luaFunc_weapon_slot_3"
+       "callfunc" "luaFunc_alt_fire_press"
      }
  }
 
-"Entities:btn_weapon_slot_4"{
+"Entities:btn_alt_fire_release"{
     "lua"{
-       "callfunc" "luaFunc_weapon_slot_4"
+       "callfunc" "luaFunc_alt_fire_release"
      }
  }
 
-"Entities:btn_weapon_slot_5"{
+"Entities:btn_reload_press"{
     "lua"{
-       "callfunc" "luaFunc_weapon_slot_5"
+       "callfunc" "luaFunc_reload_press"
      }
  }
 
-"Entities:btn_weapon_slot_6"{
+"Entities:btn_reload_release"{
     "lua"{
-       "callfunc" "luaFunc_weapon_slot_6"
+       "callfunc" "luaFunc_reload_release"
      }
  }
 
-"Entities:btn_melee"{
+"Entities:btn_use_press"{
     "lua"{
-       "callfunc" "luaFunc_melee"
+       "callfunc" "luaFunc_use_press"
      }
  }
 
-"Entities:btn_grenade"{
+"Entities:btn_use_release"{
     "lua"{
-       "callfunc" "luaFunc_grenade"
+       "callfunc" "luaFunc_use_release"
+     }
+ }
+
+"Entities:btn_zoom_press"{
+    "lua"{
+       "callfunc" "luaFunc_zoom_press"
+     }
+ }
+
+"Entities:btn_zoom_release"{
+    "lua"{
+       "callfunc" "luaFunc_zoom_release"
+     }
+ }
+
+"Entities:btn_flashlight_press"{
+    "lua"{
+       "callfunc" "luaFunc_flashlight_press"
+     }
+ }
+
+"Entities:btn_flashlight_release"{
+    "lua"{
+       "callfunc" "luaFunc_flashlight_release"
+     }
+ }
+
+"Entities:btn_suit_menu_press"{
+    "lua"{
+       "callfunc" "luaFunc_suit_menu_press"
+     }
+ }
+
+"Entities:btn_suit_menu_release"{
+    "lua"{
+       "callfunc" "luaFunc_suit_menu_release"
+     }
+ }
+
+"Entities:btn_weapon_menu_press"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_menu_press"
+     }
+ }
+
+"Entities:btn_weapon_menu_release"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_menu_release"
+     }
+ }
+
+"Entities:btn_weapon_slot_1_press"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_1_press"
+     }
+ }
+
+"Entities:btn_weapon_slot_1_release"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_1_release"
+     }
+ }
+
+"Entities:btn_weapon_slot_2_press"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_2_press"
+     }
+ }
+
+"Entities:btn_weapon_slot_2_release"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_2_release"
+     }
+ }
+
+"Entities:btn_weapon_slot_3_press"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_3_press"
+     }
+ }
+
+"Entities:btn_weapon_slot_3_release"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_3_release"
+     }
+ }
+
+"Entities:btn_weapon_slot_4_press"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_4_press"
+     }
+ }
+
+"Entities:btn_weapon_slot_4_release"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_4_release"
+     }
+ }
+
+"Entities:btn_weapon_slot_5_press"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_5_press"
+     }
+ }
+
+"Entities:btn_weapon_slot_5_release"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_5_release"
+     }
+ }
+
+"Entities:btn_weapon_slot_6_press"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_6_press"
+     }
+ }
+
+"Entities:btn_weapon_slot_6_release"{
+    "lua"{
+       "callfunc" "luaFunc_weapon_slot_6_release"
+     }
+ }
+
+"Entities:btn_melee_press"{
+    "lua"{
+       "callfunc" "luaFunc_melee_press"
+     }
+ }
+
+"Entities:btn_melee_release"{
+    "lua"{
+       "callfunc" "luaFunc_melee_release"
+     }
+ }
+
+"Entities:btn_grenade_press"{
+    "lua"{
+       "callfunc" "luaFunc_grenade_press"
+     }
+ }
+
+"Entities:btn_grenade_release"{
+    "lua"{
+       "callfunc" "luaFunc_grenade_release"
      }
  }
 
