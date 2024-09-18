@@ -165,3 +165,98 @@ function mapInit()
 
 
 end
+
+
+function luaFunc_forward()
+    -- Code for moving forward
+end
+
+function luaFunc_backward()
+    -- Code for moving backward
+end
+
+function luaFunc_strafe_left()
+    -- Code for strafing left
+end
+
+function luaFunc_strafe_right()
+    -- Code for strafing right
+end
+
+function luaFunc_jump()
+    -- Code for jumping
+end
+
+function luaFunc_crouch()
+    -- Code for crouching
+end
+
+function luaFunc_sprint()
+    -- Code for sprinting
+end
+
+function luaFunc_fire()
+    -- Code for firing
+end
+
+function luaFunc_alt_fire()
+    -- Code for alternate fire
+end
+
+function luaFunc_reload()
+    -- Code for reloading
+end
+
+function luaFunc_use()
+    -- Code for using/interacting
+end
+
+function luaFunc_zoom()
+    -- Code for zooming/aiming down sights
+end
+
+function luaFunc_flashlight()
+    -- Code for toggling flashlight
+end
+
+function luaFunc_suit_menu()
+    -- Code for opening suit menu
+end
+
+function luaFunc_weapon_menu()
+    -- Code for opening weapon menu
+end
+
+function luaFunc_weapon_slot_1()
+    -- Code for selecting weapon slot 1
+end
+
+function luaFunc_weapon_slot_2()
+    -- Code for selecting weapon slot 2
+end
+
+function luaFunc_weapon_slot_3()
+    -- Code for selecting weapon slot 3
+end
+
+function luaFunc_weapon_slot_4()
+    -- Code for selecting weapon slot 4
+end
+
+function luaFunc_weapon_slot_5()
+    -- Code for selecting weapon slot 5
+end
+
+function luaFunc_weapon_slot_6()
+    -- Code for selecting weapon slot 6
+end
+
+function luaFunc_melee()
+    -- Code for melee attack
+end
+
+function luaFunc_grenade()
+    -- Code for using grenade
+end
+
+
