@@ -166,97 +166,189 @@ function mapInit()
 
 end
 
-
-function luaFunc_forward()
-    -- Code for moving forward
+function luaFunc_forward_press()
+    -- Code for pressing forward
 end
 
-function luaFunc_backward()
-    -- Code for moving backward
+function luaFunc_forward_release()
+    -- Code for releasing forward
 end
 
-function luaFunc_strafe_left()
-    -- Code for strafing left
+function luaFunc_backward_press()
+    -- Code for pressing backward
 end
 
-function luaFunc_strafe_right()
-    -- Code for strafing right
+function luaFunc_backward_release()
+    -- Code for releasing backward
 end
 
-function luaFunc_jump()
-    -- Code for jumping
+function luaFunc_strafe_left_press()
+    -- Code for pressing strafe left
 end
 
-function luaFunc_crouch()
-    -- Code for crouching
+function luaFunc_strafe_left_release()
+    -- Code for releasing strafe left
 end
 
-function luaFunc_sprint()
-    -- Code for sprinting
+function luaFunc_strafe_right_press()
+    -- Code for pressing strafe right
 end
 
-function luaFunc_fire()
-    -- Code for firing
+function luaFunc_strafe_right_release()
+    -- Code for releasing strafe right
 end
 
-function luaFunc_alt_fire()
-    -- Code for alternate fire
+function luaFunc_jump_press()
+    -- Code for pressing jump
 end
 
-function luaFunc_reload()
-    -- Code for reloading
+function luaFunc_jump_release()
+    -- Code for releasing jump
 end
 
-function luaFunc_use()
-    -- Code for using/interacting
+function luaFunc_crouch_press()
+    -- Code for pressing crouch
 end
 
-function luaFunc_zoom()
-    -- Code for zooming/aiming down sights
+function luaFunc_crouch_release()
+    -- Code for releasing crouch
 end
 
-function luaFunc_flashlight()
-    -- Code for toggling flashlight
+function luaFunc_sprint_press()
+    -- Code for pressing sprint
 end
 
-function luaFunc_suit_menu()
-    -- Code for opening suit menu
+function luaFunc_sprint_release()
+    -- Code for releasing sprint
 end
 
-function luaFunc_weapon_menu()
-    -- Code for opening weapon menu
+function luaFunc_fire_press()
+    -- Code for pressing fire
 end
 
-function luaFunc_weapon_slot_1()
-    -- Code for selecting weapon slot 1
+function luaFunc_fire_release()
+    -- Code for releasing fire
 end
 
-function luaFunc_weapon_slot_2()
-    -- Code for selecting weapon slot 2
+function luaFunc_alt_fire_press()
+    -- Code for pressing alternate fire
 end
 
-function luaFunc_weapon_slot_3()
-    -- Code for selecting weapon slot 3
+function luaFunc_alt_fire_release()
+    -- Code for releasing alternate fire
 end
 
-function luaFunc_weapon_slot_4()
-    -- Code for selecting weapon slot 4
+function luaFunc_reload_press()
+    -- Code for pressing reload
 end
 
-function luaFunc_weapon_slot_5()
-    -- Code for selecting weapon slot 5
+function luaFunc_reload_release()
+    -- Code for releasing reload
 end
 
-function luaFunc_weapon_slot_6()
-    -- Code for selecting weapon slot 6
+function luaFunc_use_press()
+    -- Code for pressing use
 end
 
-function luaFunc_melee()
-    -- Code for melee attack
+function luaFunc_use_release()
+    -- Code for releasing use
 end
 
-function luaFunc_grenade()
-    -- Code for using grenade
+function luaFunc_zoom_press()
+    -- Code for pressing zoom
 end
+
+function luaFunc_zoom_release()
+    -- Code for releasing zoom
+end
+
+function luaFunc_flashlight_press()
+    -- Code for pressing flashlight
+end
+
+function luaFunc_flashlight_release()
+    -- Code for releasing flashlight
+end
+
+function luaFunc_suit_menu_press()
+    -- Code for pressing suit menu
+end
+
+function luaFunc_suit_menu_release()
+    -- Code for releasing suit menu
+end
+
+function luaFunc_weapon_menu_press()
+    -- Code for pressing weapon menu
+end
+
+function luaFunc_weapon_menu_release()
+    -- Code for releasing weapon menu
+end
+
+function luaFunc_weapon_slot_1_press()
+    -- Code for pressing weapon slot 1
+end
+
+function luaFunc_weapon_slot_1_release()
+    -- Code for releasing weapon slot 1
+end
+
+function luaFunc_weapon_slot_2_press()
+    -- Code for pressing weapon slot 2
+end
+
+function luaFunc_weapon_slot_2_release()
+    -- Code for releasing weapon slot 2
+end
+
+function luaFunc_weapon_slot_3_press()
+    -- Code for pressing weapon slot 3
+end
+
+function luaFunc_weapon_slot_3_release()
+    -- Code for releasing weapon slot 3
+end
+
+function luaFunc_weapon_slot_4_press()
+    -- Code for pressing weapon slot 4
+end
+
+function luaFunc_weapon_slot_4_release()
+    -- Code for releasing weapon slot 4
+end
+
+function luaFunc_weapon_slot_5_press()
+    -- Code for pressing weapon slot 5
+end
+
+function luaFunc_weapon_slot_5_release()
+    -- Code for releasing weapon slot 5
+end
+
+function luaFunc_weapon_slot_6_press()
+    -- Code for pressing weapon slot 6
+end
+
+function luaFunc_weapon_slot_6_release()
+    -- Code for releasing weapon slot 6
+end
+
+function luaFunc_melee_press()
+    -- Code for pressing melee
+end
+
+function luaFunc_melee_release()
+    -- Code for releasing melee
+end
+
+function luaFunc_grenade_press()
+    -- Code for pressing grenade
+end
+
+function luaFunc_grenade_release()
+    -- Code for releasing grenade
+end
+
 
 
